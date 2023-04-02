@@ -1,46 +1,18 @@
-# screen-burn-in-remover
+<div align="center">
+  <img src="./public/favicon.png" width="50%" alt="SCREEN BURN IN REMOVER"/> <br>
+</div>
 
-This template should help get you started developing with Vue 3 in Vite.
+# SCREEN BURN IN REMOVER
 
-## Recommended IDE Setup
+## 概要
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+赤、緑、青、黒、白の色を代わる代わる表示させ、IPS や VA ディスプレイの焼付きを解消します。  
+有機 EL の発光体の劣化による焼付きは治すことはできません。
 
-## Type Support for `.vue` Imports in TS
+## 使い方
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+[SCREEN BURN IN REMOVER](https://harusame0616.github.io/screen-burn-in-remover) にアクセスしてください。  
+**※ 画面が点滅するのでご注意ください。**
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+ページを開くと自動的に色が変わりますので、全画面にしてしばらく放置してください。  
+焼付きの程度によっては数十時間かかる場合もあります。
